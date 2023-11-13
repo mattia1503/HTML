@@ -1,0 +1,65 @@
+html, body, h1, h2, h3, h4, h6, p, ul, li, a {
+    margin:0%;
+    padding: 0%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.div1{
+    margin: 10px 27%;
+    border: 2px solid blue;
+    
+}
+
+.div1 h2{
+    text-align: center;
+    color: blue;
+}
+
+.tabella1{
+    border: 2px solid green;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px ;
+    font-size: 20px;   
+}
+
+#td1, #td2, #td3{
+    color: brown;
+}
+
+.sconto{
+    color: red;
+}
+
+
+p{
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+#button {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#pagamento{
+    padding: 5px; 
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.bottone{
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+

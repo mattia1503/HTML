@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versione 2</title>
+    <link rel="stylesheet" href="style2.css">
+    <script type="text/javascript" src="function.js" ></script>
+</head>
+<body>
+
+    
+        <div class="div1">
+            <H2>NON LASCIATEVI SCAPPARE L'OFFERTA DEL MESE</H2>
+            
+                <table class="tabella1">
+                    <tr>
+                        <td id="td1">Cavolini di bruxelle</td>
+                        <td class="sconto">Sconto 25%</td>
+                        <td>
+                            <input type="checkbox" id="cb1" >Acquista
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td id="td2">Fagiolini delle nonna</td>
+                        <td class="sconto">Sconto 50%</td>
+                        <td>
+                            <input type="checkbox" id="cb2">Acquista
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td id="td3">Kit kat fondente</td>
+                        <td class="sconto">Sconto 15%</td>
+                        <td>
+                            <input type="checkbox" id="cb3">Acquista
+                        </td>
+                    </tr> 
+                </table>
+                <div class="bottone">
+                <input type="button"   onclick="Acquista()" value="Aggiungi al carrello" id="button">
+                <a href="pagamento.html" target="_blank" ><input type="button" onclick="gestisciCheckbox()" value="Pagamento" id="pagamento" disabled></a>
+                <!-- <input type="checkbox" id="accettoTermini"> Accetto i Termini e le Condizioni -->
+                <!-- <button id="pulsantePagamento" disabled>Effettua il Pagamento</button> -->
+                </div>
+                
+        </div>
+        
+    
+</body>
+</html>

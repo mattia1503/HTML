@@ -1,0 +1,62 @@
+html, body, h1, h2, h3, h4, h6, p, ul, li {
+    margin:0%;
+    padding: 0%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.div1{
+    margin: 10px 27%;
+    border: 2px solid blue;
+    
+}
+
+.div1 h2{
+    text-align: center;
+    color: blue;
+}
+
+.tabella1{
+    border: 2px solid green;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px ;
+    font-size: 20px;   
+}
+
+.td1{
+    color: brown;
+}
+
+.td2{
+    color: red;
+} 
+
+
+p{
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+/*
+tr {
+    color: brown;
+} 
+td + td  {
+    color: rgb(255, 49, 49);
+}
+
+tr + tr  {
+    color:brown;
+}
+
+
+/* body > div > p {
+color: red;
+}  */
